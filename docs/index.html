@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Escape Room Doctor</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '<a id="logo-link" data-nosearch href="/">' +
+              '<div style="display: flex; flex-direction: row; align-items: center; padding: 0 15px; justify-content: center">' +
+              '<img src="assets/logo.svg" height="60px" alt="ERD logo">' +
+              '<span style="margin-left: 5px">Escape Room Doctor</span>' +
+              '</div></a>' +
+              '<select id="lang-selector" name="lang" style="outline: none">' +
+              '<option value="">English</value>' +
+              '<option value="ru">Русский</option></value>' +
+              '</select>',
+      nameLink: false,
+      relativePath: true,
+      auto2top: true,
+      repo: '',
+      loadFooter: true,
+      loadSidebar: true,
+      maxLevel: 4,
+      subMaxLevel: 3,
+      themeColor: '#e26d36',
+      fallbackLanguages: [],
+      namespaces: [
+        {
+          id: "lang",
+          values: ["ru"],
+          optional: true,
+          selector: "#lang-selector"
+        }
+      ],
+      plugins:[
+        function(hook, vm) {
+          hook.doneEach(function(){
+            var appNameLink = Docsify.dom.find("#logo-link");
+
+            if (!appNameLink) return;
+
+            appNameLink.href = vm.config.currentNamespace;
+          });
+        }
+      ]
+    }
+  </script>
+  <script src="//unpkg.com/docsify-namespaced/dist/docsify-namespaced.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+</body>
+</html>
