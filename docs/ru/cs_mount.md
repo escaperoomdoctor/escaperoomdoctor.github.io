@@ -24,7 +24,7 @@
 
 Разместите на листе фанеры или текстолита компоненты следующим образом  
 
-![cs-queen_place](../assets/layout/cs-queen_place.jpg ':size=600')
+![cs-queen_place](../assets/layout/cs-queen_place2.png ':size=600')
 
 ## Схема проводки системы управления
 
