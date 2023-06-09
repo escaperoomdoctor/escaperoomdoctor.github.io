@@ -68,8 +68,8 @@
 | 5VDC-POWER-SUPPLY     | ![](../assets/layout/5VDC-POWER-SUPPLY2.png ':size=500')    | схема питания 5V устройств                                                               |
 | VAC-POWER-SUPPLY      | ![](../assets/layout/vac-power-supply.jpg ':size=500')      | схема питания 110/220V устройств                                                         |
 | DIN-ADIN-PASSIVE      | ![](../assets/layout/DIN-ADIN-PASSIVE2.png ':size=500')     | схема подключения датчиков с сухим контактом и резистивных элементов                     |
-| DIN-ACTIVE            | ![](../assets/layout/din-active.jpg ':size=500')            | схема подключения активных (требующих питания) датчиков к дискретному входу              |
-| AIN-PASSIVE           | ![](../assets/layout/ain-active.jpg ':size=500')            | схема подключения активных (требующих питания) датчиков к аналоговому входу              |
+| DIN-ADIN-ACTIVE       | ![](../assets/layout/DIN-ADIN-ACTIVE2.png ':size=500')      | схема подключения активных (требующих питания) датчиков(NPN типа) к дискретному входу    |
+
 
 
 ## Проверка cоединений
