@@ -12,7 +12,7 @@ QUEEN pack - это набор компонентов для дальнейше�
 | 1. **220V**                                        |                                                         |      |                                                               |
 | 1.1. автоматический выключатель                    | ![](../assets/photo/circuit-breaker-1.jpg ':size=200')  | 1    | двухполюсный, 10A                                             |
 | 1.2. сетевой фильтр                                |   ![](../assets/photo/power-strip-1.jpg ':size=200')    | 2    | 6 розеток, 10A                                                |
-| 2. **[QUEEN BOARD](queen_board)**                  | ![](../assets/layout/queen_board_mini.png ':size=200')  | 1    | PLC for the electronic control                                |
+| 2. **[QUEEN BOARD](queen_board)**                  | ![](../assets/layout/queen_board_mini2.png ':size=200')  | 1    | PLC for the electronic control                                |
 | 3. **Процессорный модуль**                         |                                                         |      |                                                               |
 | 3.1. Raspberry Pi                                  |  ![](../assets/photo/raspberry_pi_3_1.jpg ':size=200')  | 1    | модель: raspberry pi 3 model B                                |
 | 3.2. micro-SD card                                 |      ![](../assets/photo/microsd-1.jpg ':size=40')      | 1    | SD-карта для RPI, class 10, 8GB                               |
