@@ -2,7 +2,7 @@
 
 QUEEN pack - это набор компонентов для дальнейшей сборки системы управления:  
 
-![cs-queen](../assets/layout/cs-queen_3dview.jpg ':size=600')
+![cs-queen](../assets/layout/cs-queen_3dview2.jpg ':size=600')
 
 
 ## Состав QUEEN Pack
