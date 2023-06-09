@@ -58,17 +58,16 @@
 
 | Имя подключения       | photo                                                       | Описание                                                                                 |
 |-----------------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| 12VDC-RELAY-CONTROL   | ![](../assets/layout/12VDC-RELAY-CONTROL2.png ':size=500')   | схема подключения 12V устройств к реле                                                   |
-| 5VDC-RELAY-CONTROL    | ![](../assets/layout/5VDC-RELAY-CONTROL2.png ':size=500')    | схема подключения 5V устройств к реле                                                    |
-| VAC-RELAY-CONTROL     | ![](../assets/layout/VAC-RELAY-CONTROL2.png ':size=500')     | схема подключения 110/220V устройств к реле                                              |
-| CIRCUIT-RELAY-CONTROL | ![](../assets/layout/CIRCUIT-RELAY-CONTROL2.png ':size=500') | схема подключения устройств к реле, имитирующего кнопку включения                        |
-| 12VDC-PWM-CONTROL     | ![](../assets/layout/12VDC-PWM-CONTROL2.png ':size=500')     | схема подключения 12V устройств к ШИМ транзисторам для плавного управления               |
-| 5VDC-PWM-CONTROL      | ![](../assets/layout/5VDC-PWM-CONTROL2.png ':size=500')      | схема подключения 5V устройств к ШИМ транзисторам для плавного управления                |
-| 12VDC-POWER-SUPPLY    | ![](../assets/layout/12VDC-POWER-SUPPLY2.png ':size=500')    | схема питания 12V устройств                                                              |
-| 5VDC-POWER-SUPPLY     | ![](../assets/layout/5VDC-POWER-SUPPLY2.png ':size=500')     | схема питания 5V устройств                                                               |
+| 12VDC-RELAY-CONTROL   | ![](../assets/layout/12VDC-RELAY-CONTROL2.png ':size=500')  | схема подключения 12V устройств к реле                                                   |
+| 5VDC-RELAY-CONTROL    | ![](../assets/layout/5VDC-RELAY-CONTROL2.png ':size=500')   | схема подключения 5V устройств к реле                                                    |
+| VAC-RELAY-CONTROL     | ![](../assets/layout/VAC-RELAY-CONTROL2.png ':size=500')    | схема подключения 110/220V устройств к реле                                              |
+| CIRCUIT-RELAY-CONTROL | ![](../assets/layout/CIRCUIT-RELAY-CONTROL2.png ':size=500')| схема подключения устройств к реле, имитирующего кнопку включения                        |
+| 12VDC-PWM-CONTROL     | ![](../assets/layout/12VDC-PWM-CONTROL2.png ':size=500')    | схема подключения 12V устройств к ШИМ транзисторам для плавного управления               |
+| 5VDC-PWM-CONTROL      | ![](../assets/layout/5VDC-PWM-CONTROL2.png ':size=500')     | схема подключения 5V устройств к ШИМ транзисторам для плавного управления                |
+| 12VDC-POWER-SUPPLY    | ![](../assets/layout/12VDC-POWER-SUPPLY2.png ':size=500')   | схема питания 12V устройств                                                              |
+| 5VDC-POWER-SUPPLY     | ![](../assets/layout/5VDC-POWER-SUPPLY2.png ':size=500')    | схема питания 5V устройств                                                               |
 | VAC-POWER-SUPPLY      | ![](../assets/layout/vac-power-supply.jpg ':size=500')      | схема питания 110/220V устройств                                                         |
-| DIN-PASSIVE           | ![](../assets/layout/din-passive.jpg ':size=500')           | схема подключения датчиков с сухим контактом к дискретному входу                         |
-| AIN-PASSIVE           | ![](../assets/layout/ain-passive.jpg ':size=500')           | схема подключения датчиков с сухим контактом и резистивных элементов к аналоговому входу |
+| DIN-ADIN-PASSIVE      | ![](../assets/layout/DIN-ADIN-PASSIVE2.png ':size=500')     | схема подключения датчиков с сухим контактом и резистивных элементов                     |
 | DIN-ACTIVE            | ![](../assets/layout/din-active.jpg ':size=500')            | схема подключения активных (требующих питания) датчиков к дискретному входу              |
 | AIN-PASSIVE           | ![](../assets/layout/ain-active.jpg ':size=500')            | схема подключения активных (требующих питания) датчиков к аналоговому входу              |
 
