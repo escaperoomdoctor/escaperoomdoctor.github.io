@@ -32,6 +32,10 @@
 
 ![cs-queen_wiring](../assets/layout/wire230v.png ':size=600')
 
+Провода GND проложите в соответствии со схемой ниже
+
+![cs-queen_wiring](../assets/layout/wireGND.png ':size=600')
+
 ## Подключение различных устройств
 
 Используйте следующие типовые схемы для подключения устройств к QUEEN BOARD:  
