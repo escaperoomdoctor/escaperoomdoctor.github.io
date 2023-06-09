@@ -60,7 +60,7 @@
 |-----------------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | 12VDC-RELAY-CONTROL   | ![](../assets/layout/12VDC-RELAY-CONTROL2.png ':size=500')   | схема подключения 12V устройств к реле                                                   |
 | 5VDC-RELAY-CONTROL    | ![](../assets/layout/5VDC-RELAY-CONTROL2.png ':size=500')    | схема подключения 5V устройств к реле                                                    |
-| VAC-RELAY-CONTROL     | ![](../assets/layout/vac-relay-control.jpg ':size=500')     | схема подключения 110/220V устройств к реле                                              |
+| VAC-RELAY-CONTROL     | ![](../assets/layout/VAC-RELAY-CONTROL2.png ':size=500')     | схема подключения 110/220V устройств к реле                                              |
 | CIRCUIT-RELAY-CONTROL | ![](../assets/layout/circuit-relay-control.jpg ':size=500') | схема подключения устройств к реле, имитирующего кнопку включения                        |
 | 12VDC-PWM-CONTROL     | ![](../assets/layout/12vdc-pwm-control.jpg ':size=500')     | схема подключения 12V устройств к ШИМ транзисторам для плавного управления               |
 | 5VDC-PWM-CONTROL      | ![](../assets/layout/5vdc-pwm-control.jpg ':size=500')      | схема подключения 5V устройств к ШИМ транзисторам для плавного управления                |
