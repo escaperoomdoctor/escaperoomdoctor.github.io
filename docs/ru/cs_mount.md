@@ -56,6 +56,10 @@
 
 ![cs-queen_wiring](../assets/layout/wiresAUDIO2.png ':size=600')
 
+Подключите ETHERNET кабель в соответствии со схемой ниже
+
+![cs-queen_wiring](../assets/layout/wireETHERNET2.png ':size=600')
+
 ## Подключение различных устройств
 
 Используйте следующие типовые схемы для подключения устройств к QUEEN BOARD:  
