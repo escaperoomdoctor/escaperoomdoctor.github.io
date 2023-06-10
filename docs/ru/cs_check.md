@@ -32,7 +32,7 @@
 
 | Вид сверху                                            | Вид под углом                                           |
 |-------------------------------------------------------|---------------------------------------------------------|
-| ![](../assets/layout/QUEEN-VIEW-FROM-ABOVE2.png ':size=300') | ![](../assets/layout/cs-queen_3dview.jpg ':size=500')   |
+| ![](../assets/layout/QUEEN-VIEW-FROM-ABOVE2.png ':size=300') | ![](../assets/layout/QUEEN-3D-VIEW2.png ':size=500')   |
 
 Если у вас установлен SketchUp, то можете взять модель системы управления в 3D: [sketchup model](https://1drv.ms/u/s!Am_hkdn5bouS1G9334yBP5ogC4-f).
 
