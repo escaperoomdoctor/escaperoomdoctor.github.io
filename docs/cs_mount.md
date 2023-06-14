@@ -27,6 +27,38 @@ Connect the wires of the input unit according to the diagram below
 
 ![cs-queen_wiring](assets/layout/wireMain230v.png ':size=600')
 
+Lay 230 volt wires and cables according to the diagram below
+
+![cs-queen_wiring](assets/layout/wire230v.png ':size=600')
+
+Route the GND wires according to the diagram below.
+
+![cs-queen_wiring](assets/layout/wireGND.png ':size=600')
+
+Route the 12 volt wires according to the diagram below
+
+![cs-queen_wiring](assets/layout/wire12v.png ':size=600')
+
+Route the 5 volt wires according to the diagram below
+
+![cs-queen_wiring](assets/layout/wire5v.png ':size=600')
+
+Route the 24 volt wires according to the diagram below
+
+![cs-queen_wiring](assets/layout/wire24v.png ':size=600')
+
+Connect audio cables according to the diagram below
+
+![cs-queen_wiring](assets/layout/wiresAUDIO2.png ':size=600')
+
+Connect the ETHERNET cable according to the diagram below.
+
+![cs-queen_wiring](assets/layout/wireETHERNET2.png ':size=600')
+
+To connect Queen UniSense expansion modules (not included), connect the wires according to the diagram below
+
+![cs-queen_wiring](assets/layout/wiresRS485.png ':size=600')
+
 ## Plugging various devices
 
 Use the following connections for plugging various devices:
