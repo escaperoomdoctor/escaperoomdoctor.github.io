@@ -19,7 +19,7 @@ After you receive a [queen pack](queen_pack), we recommend to purchase the follo
 
 First place all the components on the plywood
 
-![cs-queen_place](assets/layout/cs-queen_place.jpg ':size=600')
+![cs-queen_place](assets/layout/cs-queen_place2.png ':size=600')
 
 ## Wiring layout
 
