@@ -23,7 +23,7 @@ First place all the components on the plywood
 
 ## Wiring layout
 
-Plug the components using wires and cables  
+Connect the wires of the input unit according to the diagram below  
 
 ![cs-queen_wiring](assets/layout/wireMain230v.png ':size=600')
 
