@@ -19,7 +19,7 @@ QUEEN pack - это набор компонентов для дальнейше�
 |                                                    |                                                         |      |                                                               |
 | 4. **Аудио-система**                               |                                                         |      |                                                               |
 | 4.1. Усилитель звука                               |      ![](../assets/photo/tda7498.png ':size=200')       | 1    | модель: усилитель на базе чипа TDA7498                        |
-| 4.2. USB sound card                                |    ![](assets/photo/usb-audio-1.jpg ':size=100')        | 1    | exact model : creative SB play 3                              |
+| 4.2. USB sound card                                |    ![](../assets/photo/usb-audio-1.jpg ':size=100')        | 1    | exact model : creative SB play 3                              |
 | 5. **Источники питания**                           |                                                         |      |                                                               |
 | 5.1. 24VDC                                         |     ![](../assets/photo/12vdc-ps-1.jpg ':size=200')     | 1    | требования > 200W                                             |
 | 5.2. 12VDC                                         |     ![](../assets/photo/12vdc-ps-1.jpg ':size=200')     | 1    | требования > 500W                                             |
