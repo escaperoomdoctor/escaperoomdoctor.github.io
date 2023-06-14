@@ -33,24 +33,24 @@ Next, you need to assemble all the components of the control system. It is not n
 |-------------------------------------------------------|---------------------------------------------------------|
 | ![](../assets/layout/QUEEN-VIEW-FROM-ABOVE2.png ':size=300') | ![](../assets/layout/QUEEN-3D-VIEW2.png ':size=500')   |
 
-Если у вас установлен SketchUp, то можете взять модель системы управления в 3D: [sketchup model](https://1drv.ms/u/s!Am_hkdn5bouS1G9334yBP5ogC4-f).
+If you have SketchUp installed, you can take a model of the control system in 3D: [sketchup model](https://1drv.ms/u/s!Am_hkdn5bouS1G9334yBP5ogC4-f).
 
-## 4. Первое включение
+## 4. First power on
 
-Далее, перед первым включением, необходимо прозвонить все провода (пп. 10.1-10.12), используя обычный мультиметр, убедиться, что все подключено верно, отсутствуют короткие замыкания в цепях:  
+Further, before turning on for the first time, it is necessary to ring all the wires (clauses 10.1-10.12), using a conventional multimeter, make sure that everything is connected correctly, there are no short circuits in the circuits:  
 
 ![multimeter](../assets/photo/multimeter_1.jpg ':size=100')
 
-А после включения проверить напряжения на клеммах трех источников питания 24V, 12V и 5V, и убедиться, что уровень напряжений отличается от номиналов не более, чем на 5%.  
+And after switching on, check the voltages at the terminals of the three power sources 24V, 12V and 5V, and make sure that the voltage level differs from the nominal value by no more than 5%.  
 
-## 6. Настройка Raspberry Pi
+## 6. Raspberry Pi setup
 
-Далее, необходимо осуществить последовательность следующих действий:  
+Next, you need to perform the following sequence of actions:  
 
-- 6.1. установить sd-карту в raspberry pi;  
-- 6.2. установить радиаторы на в raspberry pi;  
-- 6.3. сам Raspberry Pi установить на плату QUEEN BOARD;
-- 6.4. в соответствии с [инструкцией](rpi_image_upload) залить образ операционной системы и установить IP-адрес Raspberry Pi _192.168.100.10_;  
+- 6.1. install sd card in raspberry pi;  
+- 6.2. install heatsinks on raspberry pi;  
+- 6.3. install Raspberry Pi on QUEEN BOARD board;
+- 6.4. according to [instructions](rpi_image_upload) download the operating system image and set the Raspberry Pi IP address to _192.168.100.10_;  
 - 6.5. взять из облака OneDrive [проект проверки QUEEN BOARD](https://1drv.ms/f/s!Am_hkdn5bouSgRRfeMmSvNRvym_y) и скопировать его на Raspberry Pi в папку _/home/pi/queen/queen\_board_. Если папка не создана, то создать её. Общая инструкция по копированию программного обеспечения на Raspberry Pi находится [тут](rpi_soft_install).  
 
 После всех действий подключаемся к Raspberry Pi через VNC Viewer (см. п. 5.4) с компьютера или ноутбука и работаем с программой проверки QUEEN BOARD, которая физически запущена на Raspberry Pi.  
