@@ -2,7 +2,7 @@
 
 Queen pack is a component pack for the further assembling and mounting the control system:  
 
-![cs-queen](assets/layout/cs-queen_3dview.jpg ':size=600')
+![cs-queen](../assets/layout/cs-queen_3dview2.png ':size=600')
 
 ## QUEEN Pack Configuration
 
@@ -23,19 +23,15 @@ Queen pack is a component pack for the further assembling and mounting the contr
 | 5.1. 24VDC power supply                  |    ![](assets/photo/12vdc-ps-1.jpg ':size=200')     | 1   | target: audio amplifier, minimal requirements: at least 200W              |
 | 5.2. 12VDC power supply                  |    ![](assets/photo/12vdc-ps-1.jpg ':size=200')     | 1   | target: locks, light, etc, minimal requirements: at least 500W            |
 | 5.3. 5VDC power supply                   |     ![](assets/photo/5vdc-ps-1.jpg ':size=200')     | 1   | target: sensors, minimal requirements: at least 30W                       |
-| 6. **Serial to ethernet converter**      |                                                     |     |                                                                           |
-| 6.1. serial server                       |  ![](assets/photo/usr-tcp232-410s.jpg ':size=200')  | 1   | exact model : USR-TCP232-410S                                             |
-| 6.2. serial server power supply          |   ![](assets/photo/acdc_adapter.jpg ':size=100')    | 1   | in box with serial server                                                 |
 | 7. **Ethernet switch**                   |                                                     |     |                                                                           |
 | 7.1. ethernet switch                     |  ![](assets/photo/dlink-switch-1.jpg ':size=200')   | 1   | exact model : D-LINK DES-1008C/A1A                                        |
 | 7.2. ethernet switch server power supply |   ![](assets/photo/acdc_adapter.jpg ':size=100')    | 1   | in box with ethernet switch                                               |
 | 8. **Connectors, clamps, bus**           |                                                     |     |                                                                           |
 | 8.1. ground bus                          |     ![](assets/photo/groundbus.jpg ':size=200')     | 6   | minimal requirements: 20 terminals, 50A current, copper or brass material |
-| 8.2. din rail                            |    ![](assets/photo/din-rail-1.jpg ':size=200')     | 1   | generic din rail, at least 5cm length                                     |
+| 8.2. din rail                            |    ![](assets/photo/din-rail-1.jpg ':size=200')     | 1   | generic din rail, at least 30cm length                                     |
 | 8.3. clamp for the GND                   |      ![](assets/photo/clamp_1.jpg ':size=100')      | 1   |                                                                           |
 | 9. **Cables**                            |                                                     |     |                                                                           |
 | 9.1. rj45 patchcoords                    |    ![](assets/photo/patchcoord.jpg ':size=100')     | 2   |                                                                           |
-| 9.2. serial RS232 cable                  | ![](assets/photo/db9m_db9f_cable_1.png ':size=100') | 1   | in box with serial server                                                 |
 | 9.3. minijack3.5 to 2xRCA                |   ![](assets/photo/minijack_2rca.jpg ':size=100')   | 1   |                                                                           |
 | 9.4. cables with AC socket               |   ![](assets/photo/vac-socket-1.jpg ':size=100')    | 3   | cut socket from the cable for AC/DC power supply                          |
 | 10. **Multicolor wires**                 |                                                     |     |                                                                           |
