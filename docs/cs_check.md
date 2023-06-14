@@ -80,47 +80,47 @@ We take a regular LED strip and connect it in series to all relay channels from 
 You need to turn each of the OUT channels on and off in the raspberry pi software and make sure the ribbon turns on and off as well. The 12VDC-RELAY-CONTROL diagram shows a normally open (NO) connection, but the operation of a normally closed (NC) contact must also be verified. This is done in exactly the same way.
 
 
-- 7.3. Проверка DIN-ADIN: дискретный вход
+- 7.3. DIN-ADIN test: digital input
 
-Берем обычный кусок провода и коммутируем минус питания последовательно ко всем каналам дискретного входа от 17 до 48 (можно не прикручивать к клеммным рейкам, а просто прислонить для экономии времени):  
+We take a regular piece of wire and connect in series minus power to all discrete input channels from 17 to 48 (you can not screw it to the terminal blocks, but simply lean it to save time):  
 
-| Провод                                             | Схема подключения DIN-PASSIVE                     |
+| The wire                                             | Wiring diagram DIN-PASSIVE                     |
 |----------------------------------------------------|---------------------------------------------------|
 | ![](../assets/photo/colorwires_mm.jpg ':size=300') | ![](../assets/layout/DIN-ADIN-PASSIVE2.png ':size=500') |
 
-Необходимо убедиться, что каждый из 32-х каналов работоспособен - реагирует на приложение минуса питания, а соответствующий индикатор DIN-ADIN в программе меняет свое состояние.  
+It is necessary to make sure that each of the 32 channels is working properly - it reacts to the supply of minus power supply, and the corresponding DIN-ADIN indicator in the program changes its state.  
 
-- 7.4. Проверка ADIN: аналоговый вход
+- 7.4. ADIN test: analog input
 
-Берем резистивный элемент и коммутируем его на минус питания последовательно ко всем каналам дискретного входа от 17 до 32 (можно не прикручивать к клеммным рейкам, а просто прислонить для экономии времени):  
+We take a resistive element and connect it to the power minus in series to all discrete input channels from 17 to 32 (you can not screw it to the terminal blocks, but simply lean it to save time):  
 
-| Провод                                             | Схема подключения AIN-PASSIVE                     |
+| The wire                                             | Wiring diagram ADIN-PASSIVE                     |
 |----------------------------------------------------|---------------------------------------------------|
 | ![](../assets/photo/colorwires_mm.jpg ':size=300') | ![](../assets/layout/DIN-ADIN-PASSIVE2.png ':size=500') |
 
-Необходимо убедиться, что каждый из 16-ти каналов работоспособен, а соответствующий индикатор AIN в программе меняет показание с 0 (или близкого к нулю значения) до значения превышающего 1000.
+You need to make sure that each of the 16 channels is working, and the corresponding AIN indicator in the program changes from 0 (or a value close to zero) to a value greater than 1000.
 
-## 8. Проверка работоспособности источника 5V под нагрузкой
+## 8. Checking the operability of the 5V source under load
 
-Необходимо подключить 5V LED лампу на 10-15W к шинам BUS+5VDC и BUS-VDC по схеме:  
+It is necessary to connect a 5V 10-15W LED lamp to the BUS + 5VDC and BUS-VDC buses according to the scheme:  
 
 ![](../assets/layout/5VDC-POWER-SUPPLY2.png ':size=500')
 
-Необходимо убедиться, что лампа загорелась. 
+You need to make sure the lamp is on. 
 
-## 9. Проверка работоспособности звуковой подсистемы
+## 9. Checking the performance of the sound subsystem
 
-Для проверки необходимо:
+To check you need:
 
-- 8.1. Необходимо подключить два динамика на 8 Ohm по _Варианту-1_, воспользовавшись [статьей по подключению звука](hw_plug_sound);  
-- 8.2. Выставить максимальную громкость, используя перемычки на усилителе TDA7498 и ручку регулировки громкости;  
-- 8.3. Используя всю ту же программу проверки QUEEN BOARD проиграть тестовый звук _sound\_check.mp3_.  
+- 8.1. You need to connect two 8 ohm speakers according to _Option-1_ using [article about connecting sound](hw_plug_sound);  
+- 8.2. Set the maximum volume using the jumpers on the TDA7498 amplifier and the volume control knob;  
+- 8.3. Using the same QUEEN BOARD test program, play the test sound _sound\_check.mp3_.  
 
-Необходимо убедиться, что звук проигрывается громко, без шумов.
+You need to make sure that the sound is reproduced loudly, without noise.
 
-## 10. Упаковка
+## 10. Package
 
-После всех проверок необходимо произвести упаковку компонентов Queen Pack в картонную коробку, используя специальные упаковочные материалы, минимизирующие возможность повреждения содержимого при транспортировке.  
+After all checks, it is necessary to pack the Queen Pack components in a cardboard box, using special packaging materials that minimize the possibility of damage to the contents during transportation.  
 
 
 
