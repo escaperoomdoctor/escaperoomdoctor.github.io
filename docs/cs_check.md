@@ -51,33 +51,33 @@ Next, you need to perform the following sequence of actions:
 - 6.2. install heatsinks on raspberry pi;  
 - 6.3. install Raspberry Pi on QUEEN BOARD board;
 - 6.4. according to [instructions](rpi_image_upload) download the operating system image and set the Raspberry Pi IP address to _192.168.100.10_;  
-- 6.5. взять из облака OneDrive [проект проверки QUEEN BOARD](https://1drv.ms/f/s!Am_hkdn5bouSgRRfeMmSvNRvym_y) и скопировать его на Raspberry Pi в папку _/home/pi/queen/queen\_board_. Если папка не создана, то создать её. Общая инструкция по копированию программного обеспечения на Raspberry Pi находится [тут](rpi_soft_install).  
+- 6.5. get the [QUEEN BOARD overview project](https://1drv.ms/f/s!Am_hkdn5bouSgRRfeMmSvNRvym_y) from the OneDrive cloud  and copy it to your Raspberry Pi to _/home/pi/queen/queen\_board_ folder. If the folder is not created, then create it. General instructions for copying software to Raspberry Pi can be found [here](rpi_soft_install).  
 
-После всех действий подключаемся к Raspberry Pi через VNC Viewer (см. п. 5.4) с компьютера или ноутбука и работаем с программой проверки QUEEN BOARD, которая физически запущена на Raspberry Pi.  
+After all the steps, we connect to the Raspberry Pi via the VNC Viewer (see section 5.4) from a computer or laptop and work with the QUEEN BOARD verification program, which is physically running on the Raspberry Pi.  
 
-## 7. Проверка работоспособности QUEEN BOARD
+## 7. QUEEN BOARD performance test
 
-Первое, что необходимо сделать - это убедиться, что связь с QUEEN BOARD установлена. Если это не так, то ищем причину неисправности, иначе переходим к проверке каналов управления.
+The first thing to do is to make sure the connection to QUEEN BOARD is established. If this is not the case, then we are looking for the cause of the malfunction, otherwise we proceed to checking the control channels.
 
-- 7.1. Проверка PWM: mosfet транзисторы
+- 7.1. PWM Test: MOSFETs
 
-Берем обычную LED-ленту и подключаем ее последовательно ко всем каналам PWM от 1 до 16 (можно не прикручивать к клеммным рейкам, а просто прислонить для экономии времени):  
+We take a regular LED strip and connect it in series to all PWM channels from 1 to 16 (you can not screw it to the terminal blocks, but simply lean it to save time):  
 
-| Лента                                                  | Схема подключения 12VDC-PWM-CONTROL                     |
+| LED Strip Light                                        | Wiring diagram 12VDC-PWM-CONTROL                        |
 |--------------------------------------------------------|---------------------------------------------------------|
 | ![](../assets/photo/white_led_strip-1.jpg ':size=300') | ![](../assets/layout/12VDC-PWM-CONTROL2.png ':size=500') |
 
-Необходимо менять яркость по каждому из каналов PWM в программе на Raspberry Pi и убедиться, что яркость ленты также меняется от максимального до минимального.  
+You need to change the brightness for each of the PWM channels in the Raspberry Pi software and have the ribbon brightness change from maximum to minimum as well.  
 
-- 7.2. Проверка OUT: реле
+- 7.2. Test OUT: Relay
 
-Берем обычную LED-ленту и подключаем ее последовательно ко всем каналам реле от 1 до 16 (можно не прикручивать к клеммным рейкам, а просто прислонить для экономии времени):  
+We take a regular LED strip and connect it in series to all relay channels from 1 to 16 (you can not screw it to the terminal blocks, but simply lean it to save time):  
 
-| Лента                                                  | Схема подключения 12VDC-RELAY-CONTROL                     |
+| LED Strip Light                                        | Wiring diagram 12VDC-RELAY-CONTROL                        |
 |--------------------------------------------------------|-----------------------------------------------------------|
 | ![](../assets/photo/white_led_strip-1.jpg ':size=300') | ![](../assets/layout/12VDC-RELAY-CONTROL2.png ':size=500') |
 
-Необходимо включать и выключать каждый из каналов OUT в программе на raspberry pi и убедиться, что лента также включается и выключается. На схеме 12VDC-RELAY-CONTROL иллюстрируется подключение через нормально открытый контакт (NO), но необходимо также проверить работоспособность и нормально замкнутого контакта (NC). Делается это полностью аналогично.  
+You need to turn each of the OUT channels on and off in the raspberry pi software and make sure the ribbon turns on and off as well. The 12VDC-RELAY-CONTROL diagram shows a normally open (NO) connection, but the operation of a normally closed (NC) contact must also be verified. This is done in exactly the same way.
 
 
 - 7.3. Проверка DIN-ADIN: дискретный вход
