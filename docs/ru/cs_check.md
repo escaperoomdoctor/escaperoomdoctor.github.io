@@ -49,7 +49,7 @@
 
 - 6.1. установить sd-карту в raspberry pi;  
 - 6.2. установить радиаторы на в raspberry pi;  
-- 6.3. сам Raspberry Pi установить в корпус;
+- 6.3. сам Raspberry Pi установить на плату QUEEN BOARD;
 - 6.4. в соответствии с [инструкцией](rpi_image_upload) залить образ операционной системы и установить IP-адрес Raspberry Pi _192.168.100.10_;  
 - 6.5. взять из облака OneDrive [проект проверки QUEEN BOARD](https://1drv.ms/f/s!Am_hkdn5bouSgRRfeMmSvNRvym_y) и скопировать его на Raspberry Pi в папку _/home/pi/queen/queen\_board_. Если папка не создана, то создать её. Общая инструкция по копированию программного обеспечения на Raspberry Pi находится [тут](rpi_soft_install).  
 
