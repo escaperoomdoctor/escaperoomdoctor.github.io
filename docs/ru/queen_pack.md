@@ -16,7 +16,7 @@ QUEEN pack - это набор компонентов для дальнейше�
 | 3. **Процессорный модуль**                         |                                                         |      |                                                               |
 | 3.1. Raspberry Pi                                  |  ![](../assets/photo/raspberry_pi_3_1.jpg ':size=200')  | 1    | модель: raspberry pi 3 model B                                |
 | 3.2. micro-SD card                                 |      ![](../assets/photo/microsd-1.jpg ':size=40')      | 1    | SD-карта для RPI, class 10, 8GB                               |
-|                    |
+|                                                                                                                                                                                     |
 | 4. **Аудио-система**                               |                                                         |      |                                                               |
 | 4.1. Усилитель звука                               |      ![](../assets/photo/tda7498.png ':size=200')       | 1    | модель: усилитель на базе чипа TDA7498                        |
 | 4.2. USB sound card                                |    ![](assets/photo/usb-audio-1.jpg ':size=100')        | 1    | exact model : creative SB play 3                              |
@@ -25,8 +25,8 @@ QUEEN pack - это набор компонентов для дальнейше�
 | 5.2. 12VDC                                         |     ![](../assets/photo/12vdc-ps-1.jpg ':size=200')     | 1    | требования > 500W                                             |
 | 5.3. 5VDC                                          |     ![](../assets/photo/5vdc-ps-1.jpg ':size=200')      | 1    | требования > 30W                                              |
 
-|                                      |
-|                                |
+|                                                                                                                                                                                     |
+|                                                                                                                                                                                      |
 | 7. **Ethernet-коммутатор**                         |                                                         |      |                                                               |
 | 7.1. ethernet switch                               |   ![](../assets/photo/dlink-switch-1.jpg ':size=200')   | 1    | модель: D-LINK DES-1008C/A1A                                  |
 | 7.2. ethernet switch адаптер питания               |    ![](../assets/photo/acdc_adapter.jpg ':size=100')    | 1    | поставляется с ethernet switch                                |
