@@ -25,7 +25,7 @@ First place all the components on the plywood
 
 Plug the components using wires and cables  
 
-![cs-queen_wiring](assets/layout/cs-queen_wiring.jpg ':size=600')
+![cs-queen_wiring](assets/layout/wireMain230v.png ':size=600')
 
 ## Plugging various devices
 
