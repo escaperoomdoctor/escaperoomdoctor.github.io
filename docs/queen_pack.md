@@ -15,7 +15,6 @@ Queen pack is a component pack for the further assembling and mounting the contr
 | 3. **Processor module**                  |                                                     |     |                                                                           |
 | 3.1. Raspberry Pi                        | ![](assets/photo/raspberry_pi_3_1.jpg ':size=200')  | 1   | exact model : raspberry pi 3 model B                                      |
 | 3.2. micro-SD card                       |     ![](assets/photo/microsd-1.jpg ':size=40')      | 1   | SD-card for raspberry pi, minimal requirements: class 10, 8GB             |
-| 3.3. RPI power supply                    |  ![](assets/photo/ac_dc_adapter_1.jpg ':size=100')  | 1   | power supply adapter for raspberry pi, minimal requirements: 5V, 2A       |
 | 4. **Audio system**                      |                                                     |     |                                                                           |
 | 4.1. Aidio amplifier                     |      ![](assets/photo/tda7498.png ':size=200')      | 1   | exact model : TDA7498 chip based amplifier                                |
 | 4.2. USB sound card                      |    ![](assets/photo/usb-audio-1.jpg ':size=100')    | 1   | exact model : creative SB play 3                                          |
