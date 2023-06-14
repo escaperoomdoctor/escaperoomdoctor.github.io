@@ -10,8 +10,8 @@ Queen pack is a component pack for the further assembling and mounting the contr
 |------------------------------------------|:---------------------------------------------------:|-----|---------------------------------------------------------------------------|
 | 1. **220V**                              |                                                     |     |                                                                           |
 | 1.1. circuit breaker                     | ![](assets/photo/circuit-breaker-1.jpg ':size=200') | 1   | L and N breaking, minimal requirements: 15A current                       |
-| 1.2. power strip                         |   ![](assets/photo/power-strip-1.jpg ':size=200')   | 2   | minimal requirements: 6 sockets, 10A current                              |
-| 2. **[QUEEN BOARD](queen_board)**        | ![](assets/layout/queen_board_mini.png ':size=200') | 1   | PLC for the electronic control                                            |
+| 1.2. power strip                         |   ![](../assets/photo/power-strip2.jpg ':size=200') | 2   | minimal requirements: 6 sockets, 10A current                              |
+| 2. **[QUEEN BOARD](queen_board)**        | ![](../assets/layout/queen_board_mini2.png ':size=200') | 1   | PLC for the electronic control                                            |
 | 3. **Processor module**                  |                                                     |     |                                                                           |
 | 3.1. Raspberry Pi                        | ![](assets/photo/raspberry_pi_3_1.jpg ':size=200')  | 1   | exact model : raspberry pi 3 model B                                      |
 | 3.2. micro-SD card                       |     ![](assets/photo/microsd-1.jpg ':size=40')      | 1   | SD-card for raspberry pi, minimal requirements: class 10, 8GB             |
