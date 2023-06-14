@@ -16,13 +16,13 @@ The Queen Pack includes both ready-made wires and those that need to be pre-crim
 
 | Tip                                             | Tool - crimper                                |
 |-------------------------------------------------|-----------------------------------------------|
-| ![](../assets/photo/cable_end.jpg ':size=200')  | ![](../assets/photo/crimper.jpg ':size=200')  |
+| ![](assets/photo/cable_end.jpg ':size=200')  | ![](assets/photo/crimper.jpg ':size=200')  |
 
 - 2.3. Patch cords (clause 9.1). If short purchased ones are used, then we do nothing, if we cook ourselves, then we need to crimp the rj45 connectors on both sides;
 
 | rj45 connector                            | Tools                                    |
 |-------------------------------------------|-----------------------------------------------|
-| ![](../assets/photo/rj45.jpg ':size=200') | ![](../assets/photo/rj45tool.jpg ':size=200') |
+| ![](assets/photo/rj45.jpg ':size=200') | ![](assets/photo/rj45tool.jpg ':size=200') |
 
 
 ## 3. Assembly of the control system
@@ -31,7 +31,7 @@ Next, you need to assemble all the components of the control system. It is not n
 
 | View from above                                       | 3d view                                                 |
 |-------------------------------------------------------|---------------------------------------------------------|
-| ![](../assets/layout/QUEEN-VIEW-FROM-ABOVE2.png ':size=300') | ![](../assets/layout/QUEEN-3D-VIEW2.png ':size=500')   |
+| ![](assets/layout/QUEEN-VIEW-FROM-ABOVE2.png ':size=300') | ![](assets/layout/QUEEN-3D-VIEW2.png ':size=500')   |
 
 If you have SketchUp installed, you can take a model of the control system in 3D: [sketchup model](https://1drv.ms/u/s!Am_hkdn5bouS1G9334yBP5ogC4-f).
 
@@ -39,7 +39,7 @@ If you have SketchUp installed, you can take a model of the control system in 3D
 
 Further, before turning on for the first time, it is necessary to ring all the wires (clauses 10.1-10.12), using a conventional multimeter, make sure that everything is connected correctly, there are no short circuits in the circuits:  
 
-![multimeter](../assets/photo/multimeter_1.jpg ':size=100')
+![multimeter](assets/photo/multimeter_1.jpg ':size=100')
 
 And after switching on, check the voltages at the terminals of the three power sources 24V, 12V and 5V, and make sure that the voltage level differs from the nominal value by no more than 5%.  
 
@@ -65,7 +65,7 @@ We take a regular LED strip and connect it in series to all PWM channels from 1 
 
 | LED Strip Light                                        | Wiring diagram 12VDC-PWM-CONTROL                        |
 |--------------------------------------------------------|---------------------------------------------------------|
-| ![](../assets/photo/white_led_strip-1.jpg ':size=300') | ![](../assets/layout/12VDC-PWM-CONTROL2.png ':size=500') |
+| ![](assets/photo/white_led_strip-1.jpg ':size=300') | ![](assets/layout/12VDC-PWM-CONTROL2.png ':size=500') |
 
 You need to change the brightness for each of the PWM channels in the Raspberry Pi software and have the ribbon brightness change from maximum to minimum as well.  
 
@@ -75,7 +75,7 @@ We take a regular LED strip and connect it in series to all relay channels from 
 
 | LED Strip Light                                        | Wiring diagram 12VDC-RELAY-CONTROL                        |
 |--------------------------------------------------------|-----------------------------------------------------------|
-| ![](../assets/photo/white_led_strip-1.jpg ':size=300') | ![](../assets/layout/12VDC-RELAY-CONTROL2.png ':size=500') |
+| ![](assets/photo/white_led_strip-1.jpg ':size=300') | ![](assets/layout/12VDC-RELAY-CONTROL2.png ':size=500') |
 
 You need to turn each of the OUT channels on and off in the raspberry pi software and make sure the ribbon turns on and off as well. The 12VDC-RELAY-CONTROL diagram shows a normally open (NO) connection, but the operation of a normally closed (NC) contact must also be verified. This is done in exactly the same way.
 
@@ -86,7 +86,7 @@ We take a regular piece of wire and connect in series minus power to all discret
 
 | The wire                                             | Wiring diagram DIN-PASSIVE                     |
 |----------------------------------------------------|---------------------------------------------------|
-| ![](../assets/photo/colorwires_mm.jpg ':size=300') | ![](../assets/layout/DIN-ADIN-PASSIVE2.png ':size=500') |
+| ![](assets/photo/colorwires_mm.jpg ':size=300') | ![](assets/layout/DIN-ADIN-PASSIVE2.png ':size=500') |
 
 It is necessary to make sure that each of the 32 channels is working properly - it reacts to the supply of minus power supply, and the corresponding DIN-ADIN indicator in the program changes its state.  
 
@@ -96,7 +96,7 @@ We take a resistive element and connect it to the power minus in series to all d
 
 | The wire                                             | Wiring diagram ADIN-PASSIVE                     |
 |----------------------------------------------------|---------------------------------------------------|
-| ![](../assets/photo/colorwires_mm.jpg ':size=300') | ![](../assets/layout/DIN-ADIN-PASSIVE2.png ':size=500') |
+| ![](assets/photo/colorwires_mm.jpg ':size=300') | ![](assets/layout/DIN-ADIN-PASSIVE2.png ':size=500') |
 
 You need to make sure that each of the 16 channels is working, and the corresponding AIN indicator in the program changes from 0 (or a value close to zero) to a value greater than 1000.
 
@@ -104,7 +104,7 @@ You need to make sure that each of the 16 channels is working, and the correspon
 
 It is necessary to connect a 5V 10-15W LED lamp to the BUS + 5VDC and BUS-VDC buses according to the scheme:  
 
-![](../assets/layout/5VDC-POWER-SUPPLY2.png ':size=500')
+![](assets/layout/5VDC-POWER-SUPPLY2.png ':size=500')
 
 You need to make sure the lamp is on. 
 
