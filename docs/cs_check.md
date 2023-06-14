@@ -1,35 +1,35 @@
-# Наладка Queen Pack и методика проверки
+# Queen Pack Installation and Test Method
 
 
-Данная статья посвящена тому, как правильно необходимо осущетслять настройку и проверку оборудования перед упаковкой Queen Pack. Весь процесс разбит на несколько этапов.  
+This article is about how to properly set up and test equipment before packing the Queen Pack. The whole process is divided into several stages.  
 
 
-## 1. Подготовка оборудования со склада
+## 1. Preparation of equipment from the warehouse
 
-Первое, что необходимо сделать - это найти все необходимое оборудование со склада. Перечень этого оборудования можно найти в статье по комплектации [queen pack](queen_pack). После того, как все оборудование будет найдено его необходимо отложить отдельно и начать процесс наладки.  
+The first thing to do is to find all the necessary equipment in the warehouse. A list of this equipment can be found in the article about the configuration [queen pack](queen_pack). After all the equipment is found, it must be set aside separately and the setup process begins.  
 
 
-## 2. Обжим проводов
+## 2. Wire crimp
 
-В состав Queen Pack входят как готовые провода, так и те, что необходимо сначала обжать и подготовить. К таковым относятся:  
-- 2.2. Все цветные провода (пп. 10.1-10.12). Сами провода можно достать из кабелей или купить отдельно, замерить длины, обрезать, а концы проводов обжать наконечниками;
+The Queen Pack includes both ready-made wires and those that need to be pre-crimped and prepared. These include:
+- 2.2. All colored wires (points 10.1-10.12). The wires themselves can be removed from the cables or bought separately, measured, cut and crimped the ends of the wires with tips;
 
-| Наконечник                                      | Инструмент - кримпер                          |
+| Tip                                             | Tool - crimper                                |
 |-------------------------------------------------|-----------------------------------------------|
 | ![](../assets/photo/cable_end.jpg ':size=200')  | ![](../assets/photo/crimper.jpg ':size=200')  |
 
-- 2.3. Патчкорды (п. 9.1). Если используются короткие покупные, то ничего не делаем, если готовим сами, от необходимо обжать rj45 коннекторы с обеих сторон;
+- 2.3. Patch cords (clause 9.1). If short purchased ones are used, then we do nothing, if we cook ourselves, then we need to crimp the rj45 connectors on both sides;
 
-| Коннектор rj45                            | Инструмент                                    |
+| rj45 connector                            | Tools                                    |
 |-------------------------------------------|-----------------------------------------------|
 | ![](../assets/photo/rj45.jpg ':size=200') | ![](../assets/photo/rj45tool.jpg ':size=200') |
 
 
-## 3. Сборка системы управления
+## 3. Assembly of the control system
 
-Далее необходимо собрать все компоненты системы управления. Для наладки необязательно это делать на фанере, можно осуществить электромонтаж на столе в горизонтальной плоскости, но необходимо соблюсти габаритное размещение компонентов, чтобы убедиться, что длины всех проводов подходят. Должна получиться вот такая схема:  
+Next, you need to assemble all the components of the control system. It is not necessary to do this on plywood for setup, it is possible to do the wiring on a table in a horizontal plane, but it is necessary to observe the overall placement of the components to ensure that all wire lengths are suitable. You should get a diagram like this:  
 
-| Вид сверху                                            | Вид под углом                                           |
+| View from above                                       | 3d view                                                 |
 |-------------------------------------------------------|---------------------------------------------------------|
 | ![](../assets/layout/QUEEN-VIEW-FROM-ABOVE2.png ':size=300') | ![](../assets/layout/QUEEN-3D-VIEW2.png ':size=500')   |
 
