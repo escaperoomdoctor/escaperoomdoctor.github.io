@@ -2,6 +2,7 @@
 
   - [QUEEN pack components](queen_pack)    
   - [Mounting recommendadtion](cs_mount)
+  - [QUEEN package installation and test method](cs_check)
 
 - Raspberry Pi
 
