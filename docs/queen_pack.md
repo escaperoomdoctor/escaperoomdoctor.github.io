@@ -11,7 +11,7 @@ Queen pack is a component pack for the further assembling and mounting the contr
 | 1. **220V**                              |                                                     |     |                                                                           |
 | 1.1. circuit breaker                     | ![](assets/photo/circuit-breaker-1.jpg ':size=200') | 1   | L and N breaking, minimal requirements: 15A current                       |
 | 1.2. power strip                         |   ![](assets/photo/power-strip2.jpg ':size=200')    | 4   | minimal requirements:  10A current                              |
-| 1.3. cross module                         |   ![](assets/photo/power-strip2.jpg ':size=200')    | 4   | minimal requirements:  10A current                              |
+| 1.3. cross module                         |   ![](assets/photo/CROSS.jpg ':size=200')          | 1   | minimal requirements:  10A current                              |
 | 2. **[QUEEN BOARD](queen_board)**        | ![](assets/layout/queen_board_mini2.png ':size=200') | 1   | PLC for the electronic control                                            |
 | 3. **Processor module**                  |                                                     |     |                                                                           |
 | 3.1. Raspberry Pi                        | ![](assets/photo/raspberry_pi_3_1.jpg ':size=200')  | 1   | exact model : raspberry pi 3 model B                                      |
