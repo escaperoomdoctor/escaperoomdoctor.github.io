@@ -32,7 +32,7 @@ Queen pack is a component pack for the further assembling and mounting the contr
 | 9. **Cables**                            |                                                     |     |                                                                           |
 | 9.1. rj45 patchcoords                    |    ![](assets/photo/patchcoord.jpg ':size=100')     | 1   |                                                                           |
 | 9.2. minijack3.5                         |    ![](assets/photo/jack2.jpg ':size=100')          | 1   |                                                                           |
-| 9.3. minijack3.5 to 2xRCA                |   ![](assets/photo/minijack_2rca.jpg ':size=100')   | 1   |                                                                           |
+| 9.3. minijack3.5 to 2xRCA                |   ![](assets/photo/RCA.jpg ':size=100')             | 1   |                                                                           |
 | 10. **Multicolor wires**                 |                                                     |     |                                                                           |
 | 10.1. Yellow wire 4mm<sup>2</sup>        |                                                     | 1   | powering +12V to the terminal bus BUS+12VDC                               |
 | 10.2. Yellow wire 4mm<sup>2</sup>        |                                                     | 1   | powering +12V to the terminal bus BUS+12VDC                               |
