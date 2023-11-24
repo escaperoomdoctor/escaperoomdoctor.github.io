@@ -1,16 +1,13 @@
 # Создание образа для Orange Pi
 
-Скачайте образ [Ubuntu Desktop](https://drive.google.com/drive/folders/1KzyzyByev-fpZat7yvgYz1omOqFFqt1k) и запишите на Micro SD карту с помощью win32DiskImager.
+Скачайте образ [Ubuntu Jammy Desktop 3.0.8](https://drive.google.com/file/d/1HeoGfnMVskSirPlZ4zKhoSxEIKjxeNQd/view?usp=drive_link), распакуйте с помощью 7-Zip и запишите на Micro SD карту с помощью win32DiskImager или balenaEthcer.
 
 Выполните следующие команды:
 
 ``` bash
-sudo apt update
-sudo apt upgrade
-# sudo apt install chromium-browser
-snap install chromium
-sudo apt install unclutter
-sudo apt install x11vnc
+sudo apt-get update
+sudo apt-get install unclutter
+sudo apt-get install x11vnc
 x11vnc -storepasswd
 ```
 
@@ -19,7 +16,7 @@ x11vnc -storepasswd
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Name=Chromium
+Name=Autostart
 Exec=./autostart.sh
 OnlyShowIn=XFCE;
 StartupNotify=false
@@ -35,10 +32,30 @@ x11vnc -forever -usepw -display :0 -ultrafilexfer &
 xset s off
 xset -dpms
 unclutter -idle 3 &
-chromium-browser --start-fullscreen --noerrordialogs --no-first-run --fast --fast-start --disk-cache-dir=/dev/null --disk-cache-size=1 --incognito --kiosk http://192.168.0.117:3000/password
+firefox-esr -kiosk -private-window https://pranx.com/hacker/typer
 ```
+
+Для установки компонента для защиты от записи выполнить команду:
+``` bash
+sudo apt-get install overlayroot
+```
+
+Для включения защиты от записи необходимо в файл /etc/overlayroot.conf добавить следующую строку вместо overlayroot="":
+``` bash
+overlayroot="tmpfs"
+```
+
+Если необходимо отредактировать какие-либо файлы или что-то изменить, то необходимо выполнить следующую команду:
+``` bash
+sudo overlayroot-chroot
+```
+
+После этого в терминале можно будет производить изменения. Для выхода из данного режима, нужно нажать Ctrl+D.
+Находясь в режиме с возможностью записи изменений, можно отредактировать файл /etc/overlayroot.conf и отключить защиту от записи.
+
 Для установки образа на встроенную память нужно ввести команду:
 ``` bash
-nand-sata-install
+sudo nand-sata-install
 ```
-В открывшейся утилите нужно выбрать _**2 Boot from eMMC-system on eMMC**_, а затем _**5 btrfs**_. По окончании процесса нажмите  _**Power off**_.
+В открывшейся утилите нужно выбрать _**2 Boot from eMMC-system on eMMC**_, а затем _**ext4**_ или _**5 btrfs**_.
+По окончании процесса нажмите  _**Power off**_.
