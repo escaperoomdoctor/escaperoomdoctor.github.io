@@ -38,9 +38,10 @@
   - [QUEEN API для разработчика](dev_api)
   - [Редактор системы подсказок](soft_studio_clues)
 
-- Orange Pi
+- Orange Pi, MiniPC и т.д.
 
-  - [Создание образа](orangepi_image_create)
+  - [Создание образа Orange Pi](orangepi_image_create)
+  - [Установка Ubuntu Desktop на Мини ПК](minipc_setup)
 
 - Новая проектная документация
   
